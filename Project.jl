@@ -54,27 +54,44 @@ md"""
 ### Materials and Methods
 Materials and Costs:
 Working time: 2920 hours → 8760 hours
+
 Sucrose needed: 11000 g/year → 33000 g/year
+
 Glycerol needed: 2500 g/year - 1984.12 mL/year → 7500 g/year - 5952.36 mL/year
+
 Oxygen needed: 530 mL → 1590 mL
+
 Isoprene produced: 23 g/year → 69 g/year
+
 Co2 produced: 400 g/year → 1200 g/year
+
 I-3-p produced: 3000 g/year - 2583 mL/year → 9000 g/year - 7749 mL/year
+
 (arrows indicate values for full 24 hours operation instead of 8 hour day)
 
 Sucrose: $68.5/kg
+
 Glycerol: $66.5/L
+
 Oxygen: $1150/L
+
 Syringe: $1000
+
 Chip Reactors: $100 each  - $1300 total
+
 1-3 P : $422/mL for 100% purity. $147 for 99.7% purity
+
 
 Figuring Out if Worth The Investment:
 The net present value (NPV) of a project can be used to evaluate the relative value of project. The NPV can be used to determine which projects are worthy of investment compared to possible competing alternatives. 
 NPV is the net cash flow for each time period discounted back to the present value:
+
 $$NPV = CF_{1}+\sum_{i=2}^{T}\left(\frac{1}{d_{i1}}\right)CF_{i}$$
+
 where the discount factor term is given by:
+
 $$d_{i1} = \left[\prod_{j=1}^{i-1}\left(1+r_{j+1,j}\right)\right]\qquad{i=2,3,\dots,T}$$
+
 We will use NPV to evaluate the relative value of investment between our process and an alternate investment yielding a minimum 1% per year and a maximum 10% per year.
 """
 
@@ -412,7 +429,7 @@ begin
 	plot!(stages, target_line, color="red", lw=2,linestyle=:dash, label="Target 95% purity")
 end
 
-# ╔═╡ 4a308e7a-0149-4816-a24e-ecf23c0a759c
+# ╔═╡ fb3cfbea-0048-418d-b169-ecc9ad1096a7
 with_terminal() do
 
 	# initialize some space -
@@ -431,22 +448,27 @@ with_terminal() do
 	pretty_table(state_table; header=state_table_header_row)
 end
 
+# ╔═╡ 04b26fd1-d347-4319-8a50-0621b30eb098
 md"""
 #### Calculating the NPV
 """
+
+# ╔═╡ 3051ec9d-08ea-4f9b-8357-827f7c447422
 #lifetime = 1 future year (period of time to payback the investment)
 T = 1
-  
+
+# ╔═╡ cd5c24f1-b380-4e7b-aeb0-8212a840c255
 # discount rate: risk-free interest rate (alternative investment: yielding a minimum of 1% per year and maximum of 10% per year)
 # assume constant over the payback lifetime -
 discount_rate = .1
 
+# ╔═╡ ea11850a-eacd-41ad-af18-d94823688712
 # Setup the cash flow array -
 # we pay in year 1: $1146241.74 (out, -ve)
 # we save in year(s) 2 : $ (in,+ve)
 CF_array = [3.43353, 7.53353]
 
-
+# ╔═╡ 832e8aaa-1250-48eb-8ae9-b5346a227ec9
 # compute the discount terms -
 begin
 	
@@ -461,14 +483,15 @@ begin
 	nothing
 end
 
-
+# ╔═╡ a51cc50e-be2f-41a6-8ccc-363a5739c43b
 # what is the PV?
 PV = CF_array.*(1.0./discount_array)
 
-
+# ╔═╡ 3f0c3950-64b9-4579-ad9b-9eab55dde433
 # what is the NPV?
 NPV = sum(PV)
 
+# ╔═╡ 0d9d9e92-fd93-4384-b228-3d1f68dc6643
 md"""
 ###### NPV is positive, indicating that relative to the alternate investment, this process is a good investment
 """
@@ -1570,7 +1593,15 @@ version = "0.9.1+5"
 # ╠═65c26314-f7de-42c7-978c-5fe18ef45850
 # ╟─fe1a84e2-0a44-4341-9add-35f8bb296454
 # ╠═efe968b6-4914-4c4c-a2fb-50d7e71f582b
-# ╠═4a308e7a-0149-4816-a24e-ecf23c0a759c
+# ╠═fb3cfbea-0048-418d-b169-ecc9ad1096a7
+# ╠═04b26fd1-d347-4319-8a50-0621b30eb098
+# ╠═3051ec9d-08ea-4f9b-8357-827f7c447422
+# ╠═cd5c24f1-b380-4e7b-aeb0-8212a840c255
+# ╠═ea11850a-eacd-41ad-af18-d94823688712
+# ╠═832e8aaa-1250-48eb-8ae9-b5346a227ec9
+# ╠═a51cc50e-be2f-41a6-8ccc-363a5739c43b
+# ╠═3f0c3950-64b9-4579-ad9b-9eab55dde433
+# ╠═0d9d9e92-fd93-4384-b228-3d1f68dc6643
 # ╠═fd339470-ffef-49fa-8636-dce7924e6405
 # ╠═2f2713eb-a958-4d1a-a1cc-2723ea13c38c
 # ╠═5458cafc-430a-4e2e-a3f9-d23023e6053b
