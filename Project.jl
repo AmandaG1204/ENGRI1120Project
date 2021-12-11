@@ -38,15 +38,14 @@ md"""
 
 # ╔═╡ 833d7250-f4ab-49a2-a43e-1b21def59ad4
 html"""
-<p style="font-size:20px;">Team name: Amanda Grivej, Student name, Student name ... Student name</br>
+<p style="font-size:20px;">: Amanda Grivej, Dani Ramos Ojeda, Izzy Crovella, Andrew Shim</br>
 Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca NY 14850</p>
 """
 
 # ╔═╡ 251363ad-1927-4b05-99f5-8c3f2508c0cb
 md"""
 ### Introduction
-Our project group within Olin Engineering was tasked with designing and analyzing a sustainable bioprocess in which we supply sucrose to form the product 1,3 propanediol(cite project outline?). Our main reactant, sucrose, is a disaccharide composed of glucose and fructose with the chemical formula of C12H22O11. Commonly known as table sugar, sucrose yields glucose and fructose upon hydrolysis and is soluble in water. Known for its sweet taste, sucrose is widely used in soft drinks, other beverages, and as a food preservative. Additionally, it is also used in many pharmaceutical products and serves as a chemical intermediate for many emulsifying agents and detergents. 
-(https://byjus.com/chemistry/sucrose/)
+Our project group within Olin Engineering was tasked with designing and analyzing a sustainable bioprocess in which we supply sucrose to form the product 1,3 propanediol. This product is mainly used as part of the process of creating polymers and used to make industrial products, such as adhesives, polyesters, woodpaint, and antifreeze (https://en.wikipedia.org/wiki/1,3-Propanediol). Our main reactant, sucrose, is a disaccharide composed of glucose and fructose with the chemical formula of C12H22O11. Commonly known as table sugar, sucrose yields glucose and fructose upon hydrolysis and is soluble in water. Known for its sweet taste, sucrose is widely used in soft drinks, other beverages, and as a food preservative. Additionally, it is also used in many pharmaceutical products and serves as a chemical intermediate for many emulsifying agents and detergents (https://byjus.com/chemistry/sucrose/).
 """
 
 # ╔═╡ 884a0a7d-e5d8-4417-b109-d00c37a01766
@@ -519,6 +518,8 @@ https://byjus.com/chemistry/sucrose/
 https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:1610
 
 https://doi.org/10.1038/s41598-019-48091-7
+
+https://en.wikipedia.org/wiki/1,3-Propanediol
 """
 
 # ╔═╡ cef22b5d-be5d-49f2-987f-77cf1b9379b9
