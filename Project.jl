@@ -261,7 +261,7 @@ end
 
 # ╔═╡ 4b3ef98c-d304-4ef4-95ef-f1d1ce562e36
 md"""
-###### Table 1: State table from a single chip (species mol flow rate mmol/hr at exit)
+##### Table 1: State table from a single chip (species mol flow rate mmol/hr at exit)
 """
 
 # ╔═╡ 7166a917-b676-465c-a441-4ff0530faf92
@@ -451,7 +451,7 @@ end
 
 # ╔═╡ 04b26fd1-d347-4319-8a50-0621b30eb098
 md"""
-#### Calculating the NPV
+##### Calculating the NPV
 """
 
 # ╔═╡ 3051ec9d-08ea-4f9b-8357-827f7c447422
@@ -507,12 +507,17 @@ Using the second method described above of using 31 reactors, we see that we mak
 md"""
 ### References
 Sucrose. Sigma Aldrich. https://www.sigmaaldrich.com/US/en/product/sigma/s9378
+
 Glycerol. Sigma Aldrich. https://www.sigmaaldrich.com/US/en/product/sigald/g7757
+
 Oxygen-18O2. Sigma Aldrich. https://www.sigmaaldrich.com/US/en/product/aldrich/490474
+
 1,3-Propanediol. Sigma Aldrich. https://www.sigmaaldrich.com/US/en/product/usp/1570483
 
 https://byjus.com/chemistry/sucrose/
+
 https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:1610
+
 https://doi.org/10.1038/s41598-019-48091-7
 """
 
