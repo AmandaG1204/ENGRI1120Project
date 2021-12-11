@@ -99,7 +99,7 @@ md"""
 ##### Step 1: Configure the Flux Balance Analysis (FBA) calculation for a _single_ chip
 """
 
-# ╔═╡ 5bfdf6f9-2927-4a9a-a386-8840c676329b
+# ╔═╡ ecc082e0-2ca4-48c6-be1e-f756011ef686
 begin
 
 	# setup the FBA calculation for the project -
@@ -191,8 +191,6 @@ begin
 	nothing
 end
 
-result
-
 # ╔═╡ e8a4faf8-2285-4544-830c-f39d3847e8cc
 md"""
 ##### Step 2: Method to compute the composition that is going into the downstream separation system 
@@ -233,7 +231,7 @@ If we chain these units together we can achieve a desired degree of separation.
 # ╔═╡ a3632011-833e-431b-b08f-f2896ad0a82a
 md"""
 ### Results and Discussion
-Through the flux balance analysis we discovered that we need 13 chip reactors where each reactor gets fed 0.3 mmol per hour of oxygen and 0.9 mmol per hour of both sucrose and glycerol. We will need four stages of separation to get the desired 95% purity and 1 gram per hour of 1,3-propanediol produced. However, to turn a profit, we need to use 31 chip reactors with the same amount of reactants fed into each reactor and seven stages of separation to get 99.84% purity and 1 gram per hour of our product produced.
+Through the flux balance analysis we discovered that we need 13 chip reactors where each reactor gets fed 0.5 mmol per hour of oxygen and 0.9 mmol per hour of both sucrose and glycerol to achieve maximum output of 2.466 mmol per hour. We will need four stages of separation to get the desired 95% purity and 1 gram per hour of 1,3-propanediol produced. However, to turn a profit, we need to use 31 chip reactors with 0.3 mmol per hour of oxygen and 0.9 mmol of sucrose and glycerol fed into each reactor and seven stages of separation to get 99.84% purity and 1 gram per hour of our product produced, with each chip producing 2.4 mmol/hour of 1,3-propanediol.
 """
 
 # ╔═╡ 39f3633e-b9df-4d01-946f-ba2d6c8ba6b7
@@ -259,6 +257,9 @@ begin
 		println("Computed optimal flux distribution w/exit_flag = 0: $(exit_flag==0) and status_flag = 5: $(status_flag == 5)")
 	end
 end
+
+# ╔═╡ e377e391-8998-4bfe-8874-5704ce5ae0c7
+result
 
 # ╔═╡ 4b3ef98c-d304-4ef4-95ef-f1d1ce562e36
 md"""
@@ -1599,7 +1600,8 @@ version = "0.9.1+5"
 # ╟─251363ad-1927-4b05-99f5-8c3f2508c0cb
 # ╟─884a0a7d-e5d8-4417-b109-d00c37a01766
 # ╟─ad5d595e-4dba-49cd-a446-e1df737fd75d
-# ╠═5bfdf6f9-2927-4a9a-a386-8840c676329b
+# ╠═ecc082e0-2ca4-48c6-be1e-f756011ef686
+# ╠═e377e391-8998-4bfe-8874-5704ce5ae0c7
 # ╟─e8a4faf8-2285-4544-830c-f39d3847e8cc
 # ╟─10424555-39cc-4ddf-8c22-db91cf102bfd
 # ╟─a3632011-833e-431b-b08f-f2896ad0a82a
