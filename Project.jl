@@ -49,18 +49,18 @@ Our project group within Olin Engineering was tasked with designing and analyzin
 
 Our product, 1,3-propanediol is a small, high-value organic compound with the chemical formula of CH2(CH2OH)2. The colorless, viscous liquid is miscible in water and is used in the synthesis of certain polymers and as antifreeze. It is a polar solvent capable of acting as a proton donor and through polymerization, can be used in many different materials used in different industrial processes (project outline, https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16109).
 
-Under the given assumptions about Olin Engineering labs, systems, and materials, our goal was to use sucrose to produce a 95% pure stream of 1,3 propanediol by mass with a flow rate of 1.0 g/hour. Using 31 chips, 1 syringe, 1 separator, and 31 reactors, our team came up with a financially beneficial system that yields a 99.8% pure stream of 1,3 propanediol with a flow rate of 1.03 g/hour. 
+Under the given assumptions about Olin Engineering labs, systems, and materials, our goal was to use sucrose to produce a 95% pure stream of 1,3 propanediol by mass with a flow rate of 1.0 g/hour. Using 31 chips, 1 syringe, and 1 separator, our team came up with a financially beneficial system that yields a 99.8% pure stream of 1,3 propanediol with a flow rate of 1.00928 g/hour. 
 """
 
 # ╔═╡ 884a0a7d-e5d8-4417-b109-d00c37a01766
 md"""
 ### Materials and Methods
 Materials and Costs:
-Working time: 2920 hours → 8760 hours
+Working time: 24 hours/ day → 8760 hours
 
-Sucrose needed: 11000 g/year → 33000 g/year
+Sucrose needed: .0009 mol/hour → 83658.63 g/year 
 
-Glycerol needed: 2500 g/year - 1984.12 mL/year → 7500 g/year - 5952.36 mL/year
+Glycerol needed: .0009 mol/hour → 726.06  g/year → 576.24 mL/year 
 
 Oxygen needed: 530 mL → 1590 mL
 
@@ -68,21 +68,19 @@ Isoprene produced: 23 g/year → 69 g/year
 
 Co2 produced: 400 g/year → 1200 g/year
 
-I-3-p produced: 3000 g/year - 2583 mL/year → 9000 g/year - 7749 mL/year
+I-3-p produced: (1.00928 * 0.998351) g/hour = 1.007616
 
-(arrows indicate values for full 24 hours operation instead of 8 hour day)
+Sucrose: $190/10 kg
 
-Sucrose: $68.5/kg
-
-Glycerol: $66.5/L
+Glycerol: $735/18L
 
 Oxygen: $1150/L
 
 Syringe: $1000
 
-Chip Reactors: $100 each  - $1300 total
+Chip Reactors: $100 each  - $3100 total
 
-1-3 P : $422/mL for 100% purity. $147 for 99.7% purity
+1-3 P : $422/mL for 100% purity. $147 for 99.7% purity, price at $253/mL
 
 
 Figuring Out if Worth The Investment:
@@ -473,7 +471,7 @@ discount_rate = 0.1
 # Setup the cash flow array -
 # we pay in year 1: $1146241.74 (out, -ve)
 # we save in year(s) 2 : $ (in,+ve)
-CF_array = [3.43353, 7.53353]
+CF_array = [2.34809, 6.44809]
 
 # ╔═╡ 832e8aaa-1250-48eb-8ae9-b5346a227ec9
 # compute the discount terms -
@@ -506,7 +504,7 @@ md"""
 # ╔═╡ fd339470-ffef-49fa-8636-dce7924e6405
 md"""
 ### Conclusions
-Using the second method described above of using 31 reactors, we see that we make profit within the first year, so you immediately make all the money back, along with a positive NPV, making this a worthwhile investment. This is achieved by selling the product for $253.00 per mL of 1,3-propanediol. The higher purity of the product allows us to sell it for a higher price as it meets Pharmaceutical secondary standard to turn a profit. Additionally, if desired, this process produces CO2 and Isoprene and you can choose the isolate these compounds during the separation process as well to sell as a way to increase profit. 
+Using the second method described above of using 31 reactors, we see that we make profit within the first year, so you immediately make all the money back, along with a positive NPV, making this a worthwhile investment. This is achieved by selling the product for 253 dollars per mL of 1,3-propanediol. The higher purity of the product allows us to sell it for a higher price as it meets Pharmaceutical secondary standard to turn a profit. Additionally, if desired, this process produces CO2 and Isoprene and you can choose to isolate these compounds during the separation process as well to sell as a way to increase profit. 
 """
 
 # ╔═╡ 2f2713eb-a958-4d1a-a1cc-2723ea13c38c
@@ -520,13 +518,11 @@ Oxygen-18O2. Sigma Aldrich. https://www.sigmaaldrich.com/US/en/product/aldrich/4
 
 1,3-Propanediol. Sigma Aldrich. https://www.sigmaaldrich.com/US/en/product/usp/1570483
 
-https://byjus.com/chemistry/sucrose/
+Sucrose - C12H22O11 (2021). BYJU's. https://byjus.com/chemistry/sucrose/
 
-https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:1610
+ChEBI. (2015, August 13). propane-1,3-diol. propane-1,3-diol (CHEBI:16109). Retrieved December 11, 2021, from https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI%3A16109.
 
-https://doi.org/10.1038/s41598-019-48091-7
-
-https://en.wikipedia.org/wiki/1,3-Propanediol
+Frazão, C.J.R., Trichez, D., Serrano-Bataille, H. et al. Construction of a synthetic pathway for the production of 1,3-propanediol from glucose. Sci Rep 9, 11576 (2019). https://doi.org/10.1038/s41598-019-48091-7
 """
 
 # ╔═╡ cef22b5d-be5d-49f2-987f-77cf1b9379b9
