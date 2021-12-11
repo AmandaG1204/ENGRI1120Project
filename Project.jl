@@ -232,6 +232,7 @@ If we chain these units together we can achieve a desired degree of separation.
 # ╔═╡ a3632011-833e-431b-b08f-f2896ad0a82a
 md"""
 ### Results and Discussion
+Through the flux balance analysis we discovered that we need 13 chip reactors where each reactor gets fed 0.3 mmol per hour of oxygen and 0.9 mmol per hour of both sucrose and glycerol. We will need four stages of separation to get the desired 95% purity and 1 gram per hour of 1,3-propanediol produced. However, to turn a profit, we need to use 31 chip reactors with the same amount of reactants fed into each reactor and seven stages of separation to get 99.84% purity and 1 gram per hour of our product produced.
 """
 
 # ╔═╡ 39f3633e-b9df-4d01-946f-ba2d6c8ba6b7
@@ -460,7 +461,7 @@ T = 1
 # ╔═╡ cd5c24f1-b380-4e7b-aeb0-8212a840c255
 # discount rate: risk-free interest rate (alternative investment: yielding a minimum of 1% per year and maximum of 10% per year)
 # assume constant over the payback lifetime -
-discount_rate = .1
+discount_rate = 0.1
 
 # ╔═╡ ea11850a-eacd-41ad-af18-d94823688712
 # Setup the cash flow array -
@@ -499,11 +500,20 @@ md"""
 # ╔═╡ fd339470-ffef-49fa-8636-dce7924e6405
 md"""
 ### Conclusions
+Using the second method described above of using 31 reactors, we see that we make profit within the first year, so you immediately make all the money back, along with a positive NPY, making this a worthwhile investment. This is achieved by selling the product for $253.00 per mL of 1,3-propanediol. The higher purity of the product allows us to sell it for a higher price as it meets Pharmaceutical secondary standard to turn a profit.
 """
 
 # ╔═╡ 2f2713eb-a958-4d1a-a1cc-2723ea13c38c
 md"""
 ### References
+Sucrose. Sigma Aldrich. https://www.sigmaaldrich.com/US/en/product/sigma/s9378
+Glycerol. Sigma Aldrich. https://www.sigmaaldrich.com/US/en/product/sigald/g7757
+Oxygen-18O2. Sigma Aldrich. https://www.sigmaaldrich.com/US/en/product/aldrich/490474
+1,3-Propanediol. Sigma Aldrich. https://www.sigmaaldrich.com/US/en/product/usp/1570483
+
+https://byjus.com/chemistry/sucrose/
+https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:1610
+https://doi.org/10.1038/s41598-019-48091-7
 """
 
 # ╔═╡ cef22b5d-be5d-49f2-987f-77cf1b9379b9
@@ -1602,9 +1612,9 @@ version = "0.9.1+5"
 # ╠═a51cc50e-be2f-41a6-8ccc-363a5739c43b
 # ╠═3f0c3950-64b9-4579-ad9b-9eab55dde433
 # ╠═0d9d9e92-fd93-4384-b228-3d1f68dc6643
-# ╠═fd339470-ffef-49fa-8636-dce7924e6405
-# ╠═2f2713eb-a958-4d1a-a1cc-2723ea13c38c
-# ╠═5458cafc-430a-4e2e-a3f9-d23023e6053b
+# ╟─fd339470-ffef-49fa-8636-dce7924e6405
+# ╟─2f2713eb-a958-4d1a-a1cc-2723ea13c38c
+# ╟─5458cafc-430a-4e2e-a3f9-d23023e6053b
 # ╟─cef22b5d-be5d-49f2-987f-77cf1b9379b9
 # ╟─213d4486-584f-11ec-2373-5d05e90dc5f8
 # ╟─00000000-0000-0000-0000-000000000001
