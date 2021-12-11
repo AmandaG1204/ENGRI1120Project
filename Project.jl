@@ -191,6 +191,8 @@ begin
 	nothing
 end
 
+result
+
 # ╔═╡ e8a4faf8-2285-4544-830c-f39d3847e8cc
 md"""
 ##### Step 2: Method to compute the composition that is going into the downstream separation system 
@@ -499,7 +501,7 @@ md"""
 # ╔═╡ fd339470-ffef-49fa-8636-dce7924e6405
 md"""
 ### Conclusions
-Using the second method described above of using 31 reactors, we see that we make profit within the first year, so you immediately make all the money back, along with a positive NPY, making this a worthwhile investment. This is achieved by selling the product for $253.00 per mL of 1,3-propanediol. The higher purity of the product allows us to sell it for a higher price as it meets Pharmaceutical secondary standard to turn a profit. Additionally, if desired, this process produces CO2 and Isoprene and you can choose the isolate these compounds during the separation process as well to sell as a way to increase profit. 
+Using the second method described above of using 31 reactors, we see that we make profit within the first year, so you immediately make all the money back, along with a positive NPV, making this a worthwhile investment. This is achieved by selling the product for $253.00 per mL of 1,3-propanediol. The higher purity of the product allows us to sell it for a higher price as it meets Pharmaceutical secondary standard to turn a profit. Additionally, if desired, this process produces CO2 and Isoprene and you can choose the isolate these compounds during the separation process as well to sell as a way to increase profit. 
 """
 
 # ╔═╡ 2f2713eb-a958-4d1a-a1cc-2723ea13c38c
@@ -1610,14 +1612,14 @@ version = "0.9.1+5"
 # ╟─fe1a84e2-0a44-4341-9add-35f8bb296454
 # ╠═efe968b6-4914-4c4c-a2fb-50d7e71f582b
 # ╠═fb3cfbea-0048-418d-b169-ecc9ad1096a7
-# ╠═04b26fd1-d347-4319-8a50-0621b30eb098
+# ╟─04b26fd1-d347-4319-8a50-0621b30eb098
 # ╠═3051ec9d-08ea-4f9b-8357-827f7c447422
 # ╠═cd5c24f1-b380-4e7b-aeb0-8212a840c255
 # ╠═ea11850a-eacd-41ad-af18-d94823688712
 # ╠═832e8aaa-1250-48eb-8ae9-b5346a227ec9
 # ╠═a51cc50e-be2f-41a6-8ccc-363a5739c43b
 # ╠═3f0c3950-64b9-4579-ad9b-9eab55dde433
-# ╠═0d9d9e92-fd93-4384-b228-3d1f68dc6643
+# ╟─0d9d9e92-fd93-4384-b228-3d1f68dc6643
 # ╟─fd339470-ffef-49fa-8636-dce7924e6405
 # ╟─2f2713eb-a958-4d1a-a1cc-2723ea13c38c
 # ╟─5458cafc-430a-4e2e-a3f9-d23023e6053b
