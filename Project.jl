@@ -47,7 +47,7 @@ md"""
 ### Introduction
 Our project group within Olin Engineering was tasked with designing and analyzing a sustainable bioprocess in which we supply sucrose to form the product 1,3 propanediol (project outline). Our main reactant, sucrose, is a disaccharide composed of glucose and fructose with the chemical formula of C12H22O11. Commonly known as table sugar, sucrose yields glucose and fructose upon hydrolysis and is soluble in water. Known for its sweet taste, sucrose is widely used in soft drinks, other beverages, and as a food preservative. Additionally, it is also used in many pharmaceutical products and serves as a chemical intermediate for many emulsifying agents and detergents (https://byjus.com/chemistry/sucrose/).
 
-Our product, 1,3-propanediol is a small, high-value organic compound with the chemical formula of CH2(CH2OH)2. The colorless, viscous liquid is miscible in water and is used in the synthesis of certain polymers and as antifreeze. It is a polar solvent capable of acting as a proton donor and through polymerization, can be used in many different materials used in different industrial processes (project outline, https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16109).
+Our product, 1,3-propanediol is a small, high-value organic compound with the chemical formula of CH2(CH2OH)2. The colorless, viscous liquid is miscible in water and is used in the synthesis of certain polymers, antifreeze, wood paint, adhesives, and copolyesters. It is a polar solvent capable of acting as a proton donor and through polymerization, can be used in many different materials used in different industrial processes (project outline, https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16109).
 
 Under the given assumptions about Olin Engineering labs, systems, and materials, our goal was to use sucrose to produce a 95% pure stream of 1,3 propanediol by mass with a flow rate of 1.0 g/hour. Using 31 chips, 1 syringe, and 1 separator, our team came up with a financially beneficial system that yields a 99.8% pure stream of 1,3 propanediol with a flow rate of 1.00928 g/hour. 
 """
@@ -62,25 +62,21 @@ Sucrose needed: .0009 mol/hour → 83658.63 g/year
 
 Glycerol needed: .0009 mol/hour → 726.06  g/year → 576.24 mL/year 
 
-Oxygen needed: 530 mL → 1590 mL
+Oxygen needed: 58849.55 mL
 
-Isoprene produced: 23 g/year → 69 g/year
+I-3-p produced: (1.00928 * 0.998351) g/hour = 1.007616 g/hour
 
-Co2 produced: 400 g/year → 1200 g/year
+Sucrose: 190 dollars/10 kg
 
-I-3-p produced: (1.00928 * 0.998351) g/hour = 1.007616
+Glycerol: 735 dollars/18L
 
-Sucrose: $190/10 kg
+Oxygen: 1150 dollars/L
 
-Glycerol: $735/18L
+Syringe: 1000 dollars
 
-Oxygen: $1150/L
+Chip Reactors: 100 dollars each  - 3100 dollars total
 
-Syringe: $1000
-
-Chip Reactors: $100 each  - $3100 total
-
-1-3 P : $422/mL for 100% purity. $147 for 99.7% purity, price at $253/mL
+1-3 P : 422 dollars/mL for 100% purity. 147 dollars for 99.7% purity, price at 253 dollars/mL
 
 
 Figuring Out if Worth The Investment:
@@ -1607,7 +1603,7 @@ version = "0.9.1+5"
 # ╟─a3632011-833e-431b-b08f-f2896ad0a82a
 # ╠═39f3633e-b9df-4d01-946f-ba2d6c8ba6b7
 # ╟─4b3ef98c-d304-4ef4-95ef-f1d1ce562e36
-# ╟─7166a917-b676-465c-a441-4ff0530faf92
+# ╠═7166a917-b676-465c-a441-4ff0530faf92
 # ╠═80205dc2-0cd9-4543-be6c-2b3a7a5010d5
 # ╠═eb091c37-29f6-45e8-8716-126c2df7f125
 # ╠═65c26314-f7de-42c7-978c-5fe18ef45850
