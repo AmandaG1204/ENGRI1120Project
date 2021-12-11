@@ -38,14 +38,18 @@ md"""
 
 # ╔═╡ 833d7250-f4ab-49a2-a43e-1b21def59ad4
 html"""
-<p style="font-size:20px;">: Amanda Grivej, Dani Ramos Ojeda, Izzy Crovella, Andrew Shim</br>
+<p style="font-size:20px;">ADIA: Amanda Grivej, Dani Ramos Ojeda, Izzy Crovella, Andrew Shim</br>
 Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca NY 14850</p>
 """
 
 # ╔═╡ 251363ad-1927-4b05-99f5-8c3f2508c0cb
 md"""
 ### Introduction
-Our project group within Olin Engineering was tasked with designing and analyzing a sustainable bioprocess in which we supply sucrose to form the product 1,3 propanediol. This product is mainly used as part of the process of creating polymers and used to make industrial products, such as adhesives, polyesters, woodpaint, and antifreeze (https://en.wikipedia.org/wiki/1,3-Propanediol). Our main reactant, sucrose, is a disaccharide composed of glucose and fructose with the chemical formula of C12H22O11. Commonly known as table sugar, sucrose yields glucose and fructose upon hydrolysis and is soluble in water. Known for its sweet taste, sucrose is widely used in soft drinks, other beverages, and as a food preservative. Additionally, it is also used in many pharmaceutical products and serves as a chemical intermediate for many emulsifying agents and detergents (https://byjus.com/chemistry/sucrose/).
+Our project group within Olin Engineering was tasked with designing and analyzing a sustainable bioprocess in which we supply sucrose to form the product 1,3 propanediol (project outline). Our main reactant, sucrose, is a disaccharide composed of glucose and fructose with the chemical formula of C12H22O11. Commonly known as table sugar, sucrose yields glucose and fructose upon hydrolysis and is soluble in water. Known for its sweet taste, sucrose is widely used in soft drinks, other beverages, and as a food preservative. Additionally, it is also used in many pharmaceutical products and serves as a chemical intermediate for many emulsifying agents and detergents (https://byjus.com/chemistry/sucrose/).
+
+Our product, 1,3-propanediol is a small, high-value organic compound with the chemical formula of CH2(CH2OH)2. The colorless, viscous liquid is miscible in water and is used in the synthesis of certain polymers and as antifreeze. It is a polar solvent capable of acting as a proton donor and through polymerization, can be used in many different materials used in different industrial processes (project outline, https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16109).
+
+Under the given assumptions about Olin Engineering labs, systems, and materials, our goal was to use sucrose to produce a 95% pure stream of 1,3 propanediol by mass with a flow rate of 1.0 g/hour. Using 31 chips, 1 syringe, 1 separator, and 31 reactors, our team came up with a financially beneficial system that yields a 99.8% pure stream of 1,3 propanediol with a flow rate of 1.03 g/hour. 
 """
 
 # ╔═╡ 884a0a7d-e5d8-4417-b109-d00c37a01766
