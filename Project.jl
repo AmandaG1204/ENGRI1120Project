@@ -499,7 +499,7 @@ md"""
 # ╔═╡ fd339470-ffef-49fa-8636-dce7924e6405
 md"""
 ### Conclusions
-Using the second method described above of using 31 reactors, we see that we make profit within the first year, so you immediately make all the money back, along with a positive NPY, making this a worthwhile investment. This is achieved by selling the product for $253.00 per mL of 1,3-propanediol. The higher purity of the product allows us to sell it for a higher price as it meets Pharmaceutical secondary standard to turn a profit.
+Using the second method described above of using 31 reactors, we see that we make profit within the first year, so you immediately make all the money back, along with a positive NPY, making this a worthwhile investment. This is achieved by selling the product for $253.00 per mL of 1,3-propanediol. The higher purity of the product allows us to sell it for a higher price as it meets Pharmaceutical secondary standard to turn a profit. Additionally, if desired, this process produces CO2 and Isoprene and you can choose the isolate these compounds during the separation process as well to sell as a way to increase profit. 
 """
 
 # ╔═╡ 2f2713eb-a958-4d1a-a1cc-2723ea13c38c
